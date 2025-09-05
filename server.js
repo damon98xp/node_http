@@ -92,7 +92,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Server configuration
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8591;
 const HOST = '0.0.0.0';
 
 // Start the server
