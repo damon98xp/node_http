@@ -1,0 +1,24 @@
+#+TITLE: Basic HTTP server for testing wireframe
+#+AUTHOR: Damon
+#+DATE: \today
+#+OPTIONS: toc:nil
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \usepackage{fontspec}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \setCJKmainfont{微軟正黑體}
+#+LATEX_HEADER: \XeTeXlinebreaklocale "zh"
+#+LATEX_HEADER: \XeTeXlinebreakskip = 0pt plus 1pt
+#+LATEX_HEADER: \defaultCJKfontfeatures{AutoFakeBold=6,AutoFakeSlant=.4}
+#+LATEX_HEADER: \newCJKfontfamily\Kai{標楷體}
+#+LATEX_HEADER: \newCJKfontfamily\Hei{微軟正黑體}
+#+LATEX_HEADER: \newCJKfontfamily\NewMing{新細明體}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \hypersetup{colorlinks=true, linkcolor=black, urlcolor=blue, citecolor=black, hidelinks}
+
+* Use
+
+Running below command in the console
+#+BEGIN_SRC sh
+"node server.js"
+#+END_SRC
+
