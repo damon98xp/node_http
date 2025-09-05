@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-https",
+  "version": "1.0.0",
+  "description": "Hello World web application with HTTPS using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "sudo node server.js",
+    "dev": "node server.js",
+    "start-no-sudo": "PORT=8443 node server.js",
+    "generate-cert": "openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.cert -days 365 -nodes -subj '/C=US/ST=State/L=City/O=Organization/CN=localhost'"
+  },
+  "keywords": [
+    "hello-world",
+    "https",
+    "nodejs",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT"
+}
